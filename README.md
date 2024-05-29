@@ -4,6 +4,8 @@
 
 A small [Livebook](https://livebook.dev/) file to automatically censor explicit audio using AI.
 
+https://github.com/acalejos/Exile/assets/12536734/ecb85387-ac3f-4bf1-b90c-7296df0615c4
+
 This will use OpenAI's whisper model to both transcribe and timestamp words. Then a separate local model trained
 on offensive content will be used to identify words to beep.
 
